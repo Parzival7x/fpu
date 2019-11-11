@@ -283,9 +283,9 @@ module adder(
     end
 
   end
-  assign input_a_ack = s_input_a_ack;
-  assign input_b_ack = s_input_b_ack;
-  assign output_z_stb = s_output_z_stb;
+ // assign input_a_ack = s_input_a_ack;
+  //assign input_b_ack = s_input_b_ack;
+  //assign output_z_stb = s_output_z_stb;
   assign output_z = s_output_z;
 
 endmodule
